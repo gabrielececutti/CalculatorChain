@@ -2,22 +2,14 @@
 {
     public class DigistsValidator : Validator
     {
-        public override Response IsValid(Response value)
+        public override Response IsValid(List<string> list)
         {
-            var response = value;
-            var array = value.Input.Split(",");
-            foreach ( var item in array )
+            if (int.TryParse(list[0], out int n1) && int.TryParse(list[1], out int n2))
             {
-                if (int.TryParse(item, out int result))
-                    response.Numbers.Add(result);
-                else
-                {
-                    response.Error = "the string must contain only digits.";
-                    response.Valid = false;
-                    return response;
-                }
+                if (_successor != null) return _successor.IsValid(list);
+                return new Response { Error = string.Empty, Valid = true };
             }
-            return _successor.IsValid(response);
+            return new Response { Error = "the string must contain only numbers", Valid = false };
         }
     }
 }

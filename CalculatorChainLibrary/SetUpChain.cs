@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -13,11 +14,13 @@ namespace CalculatorChainLibrary
 
         public SetUpChain()
         {
+            var twoItemValidator = new TwoItemValidator();
             var digitsValidator = new DigistsValidator();
             var digitsPostiveValidator = new DigitsPositiveValidator();
 
+            twoItemValidator.SetSuccessor(digitsValidator);
             digitsValidator.SetSuccessor(digitsPostiveValidator);
-            _chain = digitsValidator;
+            _chain = twoItemValidator;
         }
 
         public Validator GetChain => _chain;

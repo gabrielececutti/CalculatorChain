@@ -8,21 +8,14 @@ namespace CalculatorChainLibrary
 {
     public class DigitsPositiveValidator : Validator
     {
-        public override Response IsValid(Response value)
+        public override Response IsValid(List<string> list)
         {
-            var response = value;
-            foreach (var n in response.Numbers)
+            if (int.Parse(list[0]) > 0 && int.Parse(list[1]) > 0)
             {
-                if (n < 0) 
-                {
-                    response.Valid = false;
-                    response.Error = "the the string must contain only positive digits.";
-                    return response;
-                }
+                if (_successor != null) return _successor.IsValid(list);
+                return new Response { Error = string.Empty, Valid = true };
             }
-            response.Valid = true;
-            response.Sum = response.Numbers.Sum (x => x);
-            return response;
+            return new Response { Error = "the string must contain only positive numbers", Valid = false };
         }
     }
 }

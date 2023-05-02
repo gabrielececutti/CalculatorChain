@@ -15,6 +15,6 @@ namespace CalculatorChainLibrary
             _successor = successor;
         }
 
-        public abstract Response IsValid (Response value);
+        public abstract Response IsValid (List<string> list);
     }
 }

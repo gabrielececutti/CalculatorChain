@@ -1,0 +1,12 @@
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\bin\Debug\net6.0\CalculatorChainLibrary.deps.json
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\bin\Debug\net6.0\CalculatorChainLibrary.dll
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\bin\Debug\net6.0\CalculatorChainLibrary.pdb
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\CalculatorChainLibrary.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\CalculatorChainLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\CalculatorChainLibrary.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\CalculatorChainLibrary.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\CalculatorChainLibrary.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\CalculatorChainLibrary.dll
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\refint\CalculatorChainLibrary.dll
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\CalculatorChainLibrary.pdb
+C:\Users\gabri\OneDrive\Desktop\CalculatorChain\CalculatorChainLibrary\obj\Debug\net6.0\ref\CalculatorChainLibrary.dll
